@@ -60,4 +60,13 @@ def triangle():
     base = int(input('What is the length of the base of your triangle: '))
     height = int(input('How tall is the triangle: '))
     print('The area is: ' + str((base*height)/2))
-triangle()
+
+def circle():
+    pi = 3.14
+    radius = int(input('Enter the radius of the circle: '))
+    print('The radius of the circle ' + str(radius*radius*pi))
+
+def multiplyanddivide():
+    number = int(input('Enter a number: '))
+    print('That number to the power of 3 then divided by 3 is: ' + str((number**3)/3))
+multiplyanddivide()
